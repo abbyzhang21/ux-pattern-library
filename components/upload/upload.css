@@ -1,0 +1,52 @@
+.input {
+  display: inline-block;
+}
+
+.ais-SearchBox-input,
+.select,
+.input_text {
+  background-color: white;
+  border: 1px solid #d8d8d8;
+  color: #2a2a2a;
+  font-family: "sofia-pro", "sans-serif";
+  font-size: 16px;
+  margin-bottom: 1em;
+  padding-top: 9px;
+  padding-right: 1em;
+  padding-bottom: 10px;
+  padding-left: 1em;
+}
+
+.ais-SearchBox-input::placeholder,
+.input_text::placeholder {
+  color: #b5b5c1;
+}
+
+.input_text--disabled,
+.select:disabled,
+.input:disabled {
+  opacity: 0.4;
+}
+
+.visually-hidden {
+  /* position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px); */
+}
+
+/* .button {
+  border: none;
+  border-radius: 4px;
+  color: white;
+  display: inline-block;
+  font-family: "sofia-pro", "sans-serif";
+  font-size: 1em;
+  font-weight: 600;
+  padding: 0.5em 1em;
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.2);
+  background-color: #79bc6f;
+  transition-duration: 0.2s;
+} */
