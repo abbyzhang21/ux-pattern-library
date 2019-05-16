@@ -1,18 +1,8 @@
-{{!-- <label for="file">Attach</label>
+<label for="file">Attach files</label>
 <br>
-<input class="input input_file visually-hidden" type="file" name="file" id="file"> 
- --}}
-
-<label for="file">Choose a file:</label>
-<br>
-<input type="file" id="file" name="file" multiple onchange="handleChange(event)">
-<label style="display:inline-block" for="file">
+<input type="file" id="fileUpload" class="visually-hidden" name="file" multiple onchange="handleChange()">
+<label for="fileUpload">
     <span class="button" role="button">Choose
         File</span>
-    <span class="input input_text input_text--disabled" title="file name">No file chosen</span>
+    <span class="input_text" id="display-file" title="file name">No file chosen</span>
 </label>
-{{!-- <script>
-    function handleChange(event) {
-        Array.prototype.map.call(event.target.files, file => file.name)
-    }
-</script> --}}
