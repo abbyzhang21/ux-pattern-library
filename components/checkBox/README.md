@@ -1,0 +1,2 @@
+- **Accessible** - use `label for` and `label` properly
+- Styled checkbox using the `visibility hidden`
